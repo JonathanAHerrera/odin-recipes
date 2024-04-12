@@ -1,0 +1,43 @@
+html {
+    background-color: hsl(351, 100%, 90%)
+}
+
+h1{
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+li {
+    font-family: 'Courier New', monospace;
+    font-weight: bold
+}
+
+img {
+    height: 600;
+    width: auto;
+}
+
+.index-header{
+    color:darkviolet
+}
+
+.index-list{
+    text-align: center;
+}
+
+.index-list-element{
+    color: hsl(351, 100%, 90%);
+}
+
+.rice{
+    color: orange;
+}
+.beans{
+    color: brown;
+}
+.mole{
+    color: blue;
+}
+
