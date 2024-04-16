@@ -1,35 +1,75 @@
 html {
-    background-color: hsl(351, 100%, 90%)
+    background-color: #fadade;
+    box-sizing: border-box;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    background-color: #a0deee;
+}
 h1{
     font-size: 48px;
     text-align: center;
     font-family: 'Courier New', monospace;
     font-weight: bold;
+    
 }
-
+ul{
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
 li {
     font-family: 'Courier New', monospace;
-    font-weight: bold
+    font-weight: bold;
 }
 
 img {
     height: 600;
     width: auto;
 }
+a{
+    color: #f48ba9;
+}
 
+/*Index Page*/
 .index-header{
-    color:darkviolet
+    color:#936ed4;
 }
 
 .index-list{
-    text-align: center;
+    text-align: center
 }
 
 .index-list-element{
-    color: hsl(351, 100%, 90%);
+    color: #f48ba9;
+    width: 200px;
+    height: 80px;
+    margin: 10px;
+    text-align: center;
+    background-color: #86cbed;
 }
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    margin: auto;
+    height: 100px;
+    width: 400px;
+    
+}
+
+
+
+
+
 
 .rice{
     color: orange;
